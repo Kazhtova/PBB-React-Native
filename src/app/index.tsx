@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import LatVar from './var';
 
 export default function Index() {
-  // Data pengguna
+  // Data pengguna satu
   // 1
 
   const firstName = "Budi";
