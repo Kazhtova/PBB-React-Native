@@ -9,6 +9,7 @@ export default function MenuIndex() {
     { title: '3. Soal Looping (Perulangan)', path: '/soal/looping' },
     { title: '4. Soal Array & ES6', path: '/soal/array' },
     { title: '5. Soal Fungsi (Function)', path: '/soal/fungsi' },
+    { title: '6. Soal Component React Native', path: '/soal/component' },
   ];
 
   return (
