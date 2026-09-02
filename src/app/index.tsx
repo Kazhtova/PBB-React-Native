@@ -13,7 +13,7 @@ export default function MenuIndex() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Daftar Tugas Praktikum</Text>
+      <Text style={styles.header}>Daftar Tugas PBB</Text>
       <View style={styles.list}>
         {menuList.map((item, idx) => (
           <Link key={idx} href={item.path as any} asChild>

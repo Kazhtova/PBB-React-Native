@@ -34,13 +34,13 @@ export default function FungsiPage() {
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.scroll}>
       <Card title="1. Function dengan Return" result={String(munculkanAngkaDua())} />
-      <Card title="2. Function Satu Parameter" result={`kalikanDua(2) = ${kalikanDua(2)}`} />
-      <Card title="3. Function Multi Parameter" result={`tampilkanAngka(5, 3) = ${tampilkanAngka(5, 3)}`} />
+      <Card title="2. Function Satu Parameter" result={`kalikan Dua(2) = ${kalikanDua(2)}`} />
+      <Card title="3. Function Multi Parameter" result={`tampilkan Angka(5, 3) = ${tampilkanAngka(5, 3)}`} />
       <Card 
         title="4. Default Parameter" 
         result={`Dengan nilai (5): ${fungsiDefault(5)} | Tanpa nilai (default): ${fungsiDefault()}`} 
       />
-      <Card title="5. Function Percabangan" result={`cekKondisi(5, 10) = "${cekKondisi(5, 10)}"`} />
+      <Card title="5. Function Percabangan" result={`cek Kondisi(5, 10) = "${cekKondisi(5, 10)}"`} />
       <Card title="6. Arrow Function & Rest Parameter" result={`fullName('John', 'Doe') = "${fullName('John', 'Doe')}"`} />
     </ScrollView>
   );
